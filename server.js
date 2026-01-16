@@ -9,7 +9,10 @@ const db = {
 };
 
 /* Cấu hình các domain được phép truy cập */
-const allowOrigins = ["http://localhost:5173", "https://vietnmf8.github.io"];
+const allowOrigins = [
+    "http://localhost:5173",
+    "https://f8-fullstack-day46-frontend.vercel.app",
+];
 
 /**
  * Hàm thu thập các mảnh để lấy body của request
